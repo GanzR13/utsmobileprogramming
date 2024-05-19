@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">uts</string>
+    <string name="login">LOGIN</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="image">Image</string>
+    <string name="namaapk">Pendataan Alumni</string>
+    <string name="logout">Logout</string>
+    <string name="data_alumni">Data Alumni</string>
+    <string name="tambahkan_data">Tambahkan Data</string>
+    <string name="home">Home</string>
+    <string name="berita">Berita</string>
+    <string name="profile">Profile</string>
+    <string name="home_fragment">Selamat datang pada pusat data alumni. Dimana kamu bisa menemukan data kamu sebagai alumni dan atau bisa mengetahui data alumni teman kamu.</string>
+    <string name="berita_fragment">Hello blank fragment</string>
+    <string name="nama">Nama</string>
+    <string name="nim">NIM</string>
+    <string name="kelas">Kelas</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="nama_alumni">Nama Alumni</string>
+    <string name="tempat_lahir">Tempat Lahir</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="simpan">Simpan</string>
+    <string name="alamat">Alamat</string>
+    <string name="agama">Agama</string>
+    <string name="no_telp">No.Telp</string>
+    <string name="tahun_masuk">Tahun Masuk</string>
+    <string name="tahun_lulus">Tahun Lulus</string>
+    <string name="pekerjaan">Pekerjaan</string>
+    <string name="jabatan">Jabatan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

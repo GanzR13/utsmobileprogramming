@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textviewemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="40dp"
+        android:drawablePadding="15dp"
+        android:textSize="20sp"
+        android:background="@drawable/rounded_edittext"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:paddingHorizontal="15dp"
+        android:gravity="start|center_vertical"
+        tools:ignore="TextFields,TextViewEdits" />
+
+    <TextView
+        android:id="@+id/textviewnama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginRight="40dp"
+        android:drawablePadding="15dp"
+        android:background="@drawable/rounded_edittext"
+        android:textSize="20sp"
+        android:gravity="start|center_vertical"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:paddingHorizontal="15dp"
+        tools:ignore="TextViewEdits" />
+
+    <TextView
+        android:id="@+id/textviewnim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="40dp"
+        android:textSize="20sp"
+        android:gravity="start|center_vertical"
+        android:drawablePadding="15dp"
+        android:background="@drawable/rounded_edittext"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:paddingHorizontal="15dp"
+        tools:ignore="TextViewEdits" />
+
+    <TextView
+        android:id="@+id/textviewkelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textSize="20sp"
+        android:gravity="start|center_vertical"
+        android:minHeight="48dp"
+        android:paddingHorizontal="15dp"
+        android:drawablePadding="15dp"
+        android:textColor="@color/black"
+        android:background="@drawable/rounded_edittext"
+        tools:ignore="TextViewEdits" />
+
+    <Button
+        android:id="@+id/buttonlogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/rounded_button"
+        android:paddingLeft="80dp"
+        android:paddingRight="80dp"
+        android:text="@string/logout"
+        android:textStyle="bold" />
+
+</FrameLayout>
